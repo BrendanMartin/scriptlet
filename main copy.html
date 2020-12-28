@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Scriptlet</h1>
+    <div class="ext-container">
+        <div class="ext-sidebar">
+            <div class="file-list-container">
+                <h3>Saved scripts</h3>
+                <ul id="fileList"></ul>
+            </div>
+        </div>
+        <div class="ext-editor">
+            <div class="editor-top-bar">
+                <label class="url" for="url">Run on URL:</label><input type="text" class="url" id="runOnURL" name="url">
+                <input id="save" type="submit" value="Save">
+            </div>
+            <textarea id="script"></textarea>
+        </div>
+    </div>
+    <script src="https://pagecdn.io/lib/ace/1.4.12/ace.min.js" crossorigin="anonymous" integrity="sha256-T5QdmsCQO5z8tBAXMrCZ4f3RX8wVdiA0Fu17FGnU1vU=" ></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Lato;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #3c3c3c;
+  color: #cccccc;
+}
+
+.ext-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5fr;
+      grid-template-columns: 1fr 5fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ext-container .ext-sidebar {
+  background-color: #252526;
+  margin: 0;
+  padding: 0;
+}
+
+.ext-container .ext-sidebar .file-list-container h3 {
+  text-transform: uppercase;
+  color: #e4e4e4;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.ext-container .ext-sidebar .file-list-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ext-container .ext-sidebar .file-list-container ul li {
+  color: #cccccc;
+  padding: 8px 30px;
+  cursor: pointer;
+}
+
+.ext-container .ext-sidebar .file-list-container ul li:hover {
+  background-color: #2a2d2e;
+}
+
+.ext-container .ext-editor .editor-top-bar {
+  padding: 10px;
+  background-color: #2d2d2d;
+}
+
+.ext-container .ext-editor .editor-top-bar label.url {
+  padding: 5px;
+  margin-right: 10px;
+  color: white;
+}
+
+.ext-container .ext-editor .editor-top-bar input.url {
+  width: 50%;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+}
+
+.ext-container .ext-editor .editor-top-bar #save {
+  float: right;
+  border: none;
+  padding: 7px 20px;
+  background-color: #2c7ad6;
+  color: white;
+}
+
+.ext-container .ext-editor .editor-top-bar #save:hover {
+  background-color: #4d9fff;
+  cursor: pointer;
+}
+
+.ext-container .ext-editor #editor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.ext-container .ext-editor textarea {
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e;
+  caret-color: #cecece;
+  color: white;
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  font-family: consolas;
+}
+
+.ext-container .ext-editor textarea:focus {
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */

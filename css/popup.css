@@ -1,0 +1,27 @@
+.ext-container {
+  width: 200px;
+  padding: 0 10px;
+  font-family: Lato;
+  border: 1px solid black;
+}
+
+.ext-container h3 {
+  text-align: center;
+}
+
+.ext-container ul {
+  list-style: none;
+  margin: 10;
+  padding: 0;
+  text-align: center;
+}
+
+.ext-container ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.ext-container ul li:hover {
+  background-color: whitesmoke;
+}
+/*# sourceMappingURL=popup.css.map */

@@ -1,0 +1,35 @@
+$font-size: 12pt;
+$darker-main: #000000;
+$dark-main: #14213d;
+$accent: #fca311;
+$light-main: #e5e5e5;
+$lighter-main: #ffffff;
+
+.ext-container {
+    width: 200px;
+    padding: 0 10px;
+    font-family: Lato;
+    border: 1px solid black;
+
+    h3 {
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        margin: 10;
+        padding: 0;
+        text-align: center;
+
+        li {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        li:hover {
+            background-color: rgb(245, 245, 245);
+        }
+    }
+    
+}
+
